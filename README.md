@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  Grocery Developer App
 
-## Getting Started
+A full-stack, modern online grocery shopping experience built using **Next.js**, **Strapi**, and **PostgreSQL**.
 
-First, run the development server:
+---
 
-```bash
+## Features
+
+-  User Authentication (Sign In / Sign Up)
+-  Add to Cart, Update Quantity, and Checkout
+-  Filter and view products by category
+-  Order confirmation and order history
+-  Toast notifications using Sonner
+-  Fully responsive UI using Tailwind CSS + ShadCN
+
+---
+
+## Tech Stack
+
+| Frontend      | Backend       | Database    |
+|---------------|---------------|-------------|
+| Next.js 14+   | Strapi (Node) | PostgreSQL  |
+| Tailwind CSS  | REST API      | Supabase (optional) |
+| ShadCN UI     | JWT Auth      |             |
+
+---
+
+##  Folder Structure
+
+online-grocery-store/ ├── app/ # All Next.js app routes & pages ├── components/ # UI components ├── public/ # Static assets (images, etc.) ├── .env.local # Local environment variables ├── README.md # Project info and usage └── ...
+###  Frontend Setup
+
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+###  Backend Setup
+cd backend
+npm install
+npm run develop
+Your CMS will run at: http://localhost:1337
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+--> Backend can be seen in render
+-->frontend would be deployed in vercel
+## 📸 Screenshots
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Home Page
+![Home Page](public/screenshots/Home.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+### Cart Page
+![Cart Page](public/screenshots/cart.png)
 
-To learn more about Next.js, take a look at the following resources:
+### checkout Page
+![checkout Page](public/screenshots/checkout.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### grains in category Page
+![category Page](public/screenshots/grains.png)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### subtotal Page
+![subtotal Page](public/screenshots/subtotal.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### payment Page
+![payment_process Page](public/screenshots/payment_onProcess.png)
+
+### category backend
+![category backend](public/screenshots/category_backend.png)
+
+
+### order backend
+![order backend](public/screenshots/order_backend.png)
+
+### product backend
+![product backend](public/screenshots/product_backend.png)
+
+
+### slider backend
+![slider backend](public/screenshots/slider_backend.png)
+
+
+### product_contentType
+![product contentType](public/screenshots/product_contentType.png)
+
+
