@@ -1,5 +1,6 @@
 import { Button } from 'components/ui/button'
 import { CheckCircle, CheckCircle2 } from 'lucide-react'
+import Link from 'next/link'
 import React from 'react'
 
 const OrderConfirmation = () => {
